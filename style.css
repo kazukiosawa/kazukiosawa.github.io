@@ -8,8 +8,16 @@ body {
     margin-right: auto;
     color: #333311;
 }
-a {
-    color: #0044CC;
+a:link {
+    color: #1A0DAB;
+    text-decoration: none;
+}
+a:visited {
+    color: #660099;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
 }
 strong.red {
     color: red;
